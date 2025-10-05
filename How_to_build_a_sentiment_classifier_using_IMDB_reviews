@@ -6,7 +6,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import classification_report, accuracy_score
 
-# Download IMDB reviews from keras (alternatively, use a CSV file)
+# Download IMDB reviews from keras 
 from keras.datasets import imdb
 from keras.preprocessing.sequence import pad_sequences
 
